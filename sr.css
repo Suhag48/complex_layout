@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&family=Cormorant+Garamond:wght@300;500;700&family=Playfair+Display:wght@400;500;600;700;900&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+.section-three{
+    border-radius: 15px;
+    background-color: #F2ECEC;
+    padding: 10px 0px;
+    
+    
+}
+
+.section-three h3{
+    font-size: 28px;
+    color: #18AC9A;
+    text-align: center;
+    font-weight: 500;
+
+}
+.section-three hr{
+    width: 100%;
+    height: 3px;
+    color: #867676;
+}
+
+.section-three p{
+    font-size: 16px;
+    font-weight: 500;   
+}
+.shadow-text p{
+    line-height: 8px;
+}
+.section-three .inner-div .row{
+    display: flex;
+}
+.col-md-3{
+    text-align: center;
+    width: 25%;
+}
+.col-md-3 p{
+    line-height: 12px;
+}
+.shadow-text{
+    color: #867676
+}
+.arabic-text{
+    color: #18AC9A
+}
+.section-three .btn-para{
+    margin-top: 90px;
+}
+.section-three .btn-para a{
+    border: 1px solid #18AC9A;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #18AC9A;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.section-three .btn-para a:hover{
+    background-color: var(--green);
+    color: #000;
+    transition: 1s;
+}
+.section-three .btn-para p{
+    color: #18AC9A;
+}
+.section-three .inner-div img{
+    border: 1px solid #867676;
+    padding: 0px 20px;
+    width: 180px;
+    height: 260px;
+    border-radius: 10px;
+    
+}
+.active-page{
+    border: 1px solid #867676;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-top: 30px;
+    
+}
+.active-page .numbers {
+    display: flex;
+
+}
+.active-page .numbers p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.active-page .numbers .active{
+    border: 2px solid #18AC9A;
+    padding: 2px 8px;
+    background-color: #18AC9A;
+    border-radius: 50%;
+    color: #fff;
+}
+.radius-box{
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.radius-box input{
+    border: 1px solid #867676;
+    padding: 5px 10%;
+    border-radius: 20px;
+    text-align: right;
+    padding: 10px 65px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0vh 5vh;
+}
+.radius-box h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #18AC9A;
+    margin-top: 5px;;
+}
+
+
+
+
+
+
+
+
+
+
+/* extra code start */
+
+
+

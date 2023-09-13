@@ -1,0 +1,138 @@
+
+
+.new-card {
+    width: 100%;
+    min-height: 40vh;
+    
+    
+    margin-top: 30px;
+    border-radius: 20px;
+    direction: rtl;
+    background-color: #F2ECEC;
+    
+}
+.card-top {
+    height: 20%;
+    padding: .5rem 0 0 0;
+    text-align: center;
+}
+.card-top h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #18AC9A;
+}
+.colored-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #18AC9A;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+.card-btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #18AC9A;
+    border: none;
+}
+.card-icons p{
+    font-size: 14px;
+    color: #18AC9A;
+    margin-top: 10px;
+}
+.normal-text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #867676;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.card-bottom {
+    height: 80%;
+    display: flex;
+    padding: .5rem;
+    
+}
+.content-section {
+    display: flex;
+    flex: 2;
+}
+.text-section {
+    display: flex;
+    flex: 2;
+    text-align: center;
+    padding: .5rem;
+    gap: 10px;
+    line-height: 1.5;
+}
+.text-section p {
+    width: 45%;
+}
+
+.btnAndIcon-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 2rem;
+}
+.card-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-section {
+    border: 1px solid #867676;
+    border-radius: 10px;
+    margin: 1rem;
+    height: 250px;
+    width: 280px;
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section img {
+    width: 200px;
+    object-fit: cover;
+}
+.card-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top hr {
+    padding: 0;
+    margin: 0;
+    background-color: #867676;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+}
+.icon-container{
+    font-size: 20px;
+}
+.icon-container .fa-facebook-f{
+    color: blue;
+}
+.icon-container .fa-print{
+    color: #867676;
+
+}
+.icon-container .fa-twitter{
+    color: #18AC9A;
+}
+.icon-container .fa-envelope{
+    color: red;
+}
